@@ -1,6 +1,6 @@
 {
   "name": "@x-system/image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "image utils for gulp4",
   "main": "index.js",
   "scripts": {},

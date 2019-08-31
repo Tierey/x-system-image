@@ -2,7 +2,7 @@
 
 - ./img/
 
-    - _converttor/
+    - _convertor/
         - *.( jpg | jpeg | svg | tiff | webp )
 
     - _sprite_png/ 
@@ -15,22 +15,27 @@
             - *.svg
         ...
 
-    *.( jpg | jpeg | png | svg )
+    - *.( jpg | jpeg | png | svg )
     ...
 
-./www/
+- ./www/
     - img/
         - convertor/
 
 ___
-# gulpfile :
 
+# gulpfile :
 
 ```javascript
 
 const gulp  = require(`gulp`);
 
-const {imgMin , spritePng , spriteSvg , nameConvertor}  = require(`@x-system/image`);
+const {
+    imgMin    ,
+    spritePng , 
+    spriteSvg , 
+    nameConvertor 
+} = require(`@x-system/image`);
 
 let image_options = {
 
@@ -73,8 +78,8 @@ let image_options = {
             
             name-to.png-rz400-rt@2x.jpg       = example
         */
-        src:["./img/*.{jpg,jpeg,tiff,png,webp}"],
-        dest:"./www/sharp"
+        src:["./img/convertor/*.{jpg,jpeg,tiff,png,webp}"],
+        dest:"./www/convertor"
 
     },
     imgmin:{
