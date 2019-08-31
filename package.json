@@ -1,6 +1,6 @@
 {
   "name": "@x-system/image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "image utils for gulp4",
   "main": "index.js",
   "scripts": {},
@@ -22,19 +22,17 @@
   "license": "MIT",
   "deprecated": "in process",
   "dependencies": {
-    "gulp-flatmap": "*",
-    "gulp-imagemin": "*",
-    "sharp": "*",
-    "vinyl-buffer": "*",
-    "gulp.spritesmith": "*",
-    "gulp": "*",
-    "gulp-plumber": "*",
-    "through2": "*",
-    "del": "*",
-    "vinyl": "*",
-    "gulp-rename": "*",
     "colors": "*",
     "enquirer": "*",
-    "gulp-svgstore": "*"
+    "gulp": "*",
+    "gulp-imagemin": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-svgstore": "*",
+    "gulp.spritesmith": "*",
+    "sharp": "*",
+    "through2": "*",
+    "vinyl": "*",
+    "vinyl-buffer": "*"
   }
 }
