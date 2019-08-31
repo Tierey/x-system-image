@@ -1,0 +1,40 @@
+{
+  "name": "@x-system/image",
+  "version": "0.0.1",
+  "description": "image utils for gulp4",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "@x-system"
+  ],
+  "author": {
+    "name": "tierey",
+    "email": "ixitixixi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tierey/x-system-image.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Tierey/x-system-image",
+  "license": "MIT",
+  "deprecated": "in process",
+  "dependencies": {
+    "gulp-flatmap": "*",
+    "gulp-imagemin": "*",
+    "sharp": "*",
+    "vinyl-buffer": "*",
+    "gulp.spritesmith": "*",
+    "gulp": "*",
+    "gulp-plumber": "*",
+    "through2": "*",
+    "del": "*",
+    "vinyl": "*",
+    "gulp-rename": "*",
+    "colors": "*",
+    "enquirer": "*",
+    "gulp-svgstore": "*"
+  }
+}
